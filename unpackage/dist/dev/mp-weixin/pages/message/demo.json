@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "信息页",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#007AFF",
+  "usingComponents": {}
+}

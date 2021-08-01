@@ -1,0 +1,57 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/message/demo",
+			"style":{
+				"navigationBarTitleText":"信息页",
+				"enablePullDownRefresh":true,//开启下拉刷新
+				"navigationBarBackgroundColor":"#007AFF"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style":{
+				"navigationBarTitleText":"首页",
+				"enablePullDownRefresh":true,//开启下拉刷新
+				"navigationBarBackgroundColor":"#007AFF"
+			}
+		},
+		{
+			"path": "pages/detail/index",
+			"style":{
+				"navigationBarTitleText":"详情页",
+				"enablePullDownRefresh":true,//开启下拉刷新
+				"navigationBarBackgroundColor":"#007AFF"
+		}
+	],
+	"tabBar":{
+		"color": "#007AFF",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list":[
+			{
+				"text":"首页",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/001.png",
+				"selectedIconPath":"static/01.png"
+			},
+			{
+				"text":"信息页",
+				"pagePath":"pages/message/demo",
+				"iconPath":"static/002.png",
+				"selectedIconPath":"static/02.png"
+			}
+		]
+	},
+	"globalStyle": {
+		//首页标题
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "2021-08-01",
+		"navigationBarBackgroundColor": "#238938",
+		"enablePullDownRefresh":true, //是否下拉
+		//下拉配置项
+		"backgroundTextStyle":"light",
+		"backgroundColor": "#2C405A"
+	}
+}
